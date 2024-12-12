@@ -9,6 +9,8 @@
 
 const fs = require('fs');
 
+console.log('Running commit-check.js...');
+
 // Чтение пути к сообщению коммита
 const commitMsgPath = process.argv[2];
 
