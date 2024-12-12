@@ -29,6 +29,6 @@ Expected format: ASTONJS-<lesson number> [feat/fix/chore]: <message>
 Example:
 ASTONJS-1 [feat]: add new feature
   `);
-  process.exit(1);
+  process.exit(1); // Завершение с ошибкой
 }
 
