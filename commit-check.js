@@ -9,8 +9,10 @@
 
 const fs = require('fs');
 
-// Чтение сообщения коммита
+// Чтение пути к сообщению коммита
 const commitMsgPath = process.argv[2];
+
+// Чтение сообщения коммита
 const commitMsg = fs.readFileSync(commitMsgPath, 'utf8').trim();
 
 // Регулярное выражение для проверки формата
