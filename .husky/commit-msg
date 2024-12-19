@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+echo "Husky is running commit-msg hook..."
+npm run commit-check "$1"
